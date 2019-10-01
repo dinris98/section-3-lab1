@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My test page</title>
+
+  <style>
+    input:invalid{
+      border: 2px dashed red;
+    }
+    input:valid{
+      border: 2px solid black;
+    }
+
+  </style>
+  </head>
+  <body>
+
+    <form>
+      <fieldset>
+
+
+
+
+
+      Name: <br>
+      <input type="text" name="firstname" required><br>
+      Email: <br>
+      <input type="text" name="Email"multiple required><br>
+
+
+      <br><fieldset>
+      <legend>What is your favourite subject?</legend>
+      <input type="radio" name="subject" value="Maths" checked>Maths
+      <input type="radio" name="subject" value="Science">Science
+      <input type="radio" name="subject" value="Biology">Biology <br>
+      </fieldset>
+        <br><select  name="Study level">Study level <br>
+        <option value="study level">study level <br>
+        <option value="undergraduate">undergraduate <br>
+        <option value="postgraduate">postgraduate <br>
+        </option></option></option><br><br>
+        </select>
+
+        <br><br><input type="submit" value="Submit">
+        <input type="reset"value="Reset">
+        <br>
+
+
+
+    </fieldset>
+    </form>
+
+
+  </body>
+</html>
